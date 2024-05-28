@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'PoetsenOneRegular';
+    src: url('Fonts/PoetsenOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container{
+	text-align: center;
+}
+
+canvas {
+    border: 1px solid black;
+	background-color: lightgreen;
+	display:  block;
+}
+
+h1{
+	font-family: 'Poor Richard Regular', sans-serif;
+	color: darkgreen;
+	text-align: center;
+}
+
+#startScreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
